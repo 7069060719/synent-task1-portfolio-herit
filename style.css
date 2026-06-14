@@ -132,7 +132,11 @@ h2 {
   padding: 1.8rem; border-radius: 6px;
   transition: border-color 0.3s, transform 0.3s;
 }
-.skill-card:hover { border-color: var(--accent); transform: translateY(-4px); }
+.skill-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
 .skill-icon { font-size: 2rem; margin-bottom: 0.8rem; }
 .skill-card h3 { font-size: 1rem; font-weight: 500; margin-bottom: 0.4rem; }
 .skill-card p { color: var(--muted); font-size: 0.85rem; line-height: 1.6; }
